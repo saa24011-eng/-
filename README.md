@@ -101,7 +101,102 @@
     <header>
         <h1>直売所</h1>
     </header>
-    
+    <!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>西条農業高校 野菜直売サイト</title>
+
+<style>
+body{
+    font-family: sans-serif;
+    background:#f4fff4;
+    text-align:center;
+    margin:0;
+}
+
+header{
+    background:#2e8b57;
+    color:white;
+    padding:25px;
+}
+
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+    margin:30px;
+}
+
+.card{
+    width:250px;
+    background:white;
+    border-radius:15px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    overflow:hidden;
+}
+
+.card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+.card h2{
+    color:#2e8b57;
+}
+
+.card p{
+    padding:10px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>🍅 西条農業高校 野菜直売サイト 🫑</h1>
+<p>新鮮な野菜を販売しています！</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+<img src="tomato.jpg" alt="ミニトマト">
+<h2>ミニトマト</h2>
+<p>甘くてジューシー！サラダにぴったり。</p>
+</div>
+
+<div class="card">
+<img src="pepper.jpg" alt="ピーマン">
+<h2>ピーマン</h2>
+<p>肉厚で苦みが少なく食べやすい！</p>
+</div>
+
+<div class="card">
+<img src="eggplant.jpg" alt="ナス">
+<h2>ナス</h2>
+<p>焼きナスや麻婆ナスにおすすめ！</p>
+</div>
+
+<div class="card">
+<img src="shiso.jpg" alt="シソ">
+<h2>シソ</h2>
+<p>香り豊かで料理のアクセントに。</p>
+</div>
+
+<div class="card">
+<img src="goya.jpg" alt="ゴーヤ">
+<h2>ゴーヤ</h2>
+<p>夏バテ予防にぴったりの野菜！</p>
+</div>
+
+</div>
+
+</body>
+</html>
     <section class="product">
         <h2>取り扱い商品</h2>
         <p>ミニトマトやナス、ピーマンは夏野菜でとてもみずみずしくおいしい。</p>
